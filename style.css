@@ -60,7 +60,7 @@ a:visited, .user{
     position: absolute;
     border-radius: 50%;
     left: 0%;
-    bottom: 30%;
+    top: -5%;
     width: 135px;
     height: 135px;
 }
@@ -68,7 +68,7 @@ a:visited, .user{
     position: absolute;
     border-radius: 50%;
     right: 0%;
-    bottom: 30%;
+    top: 0%;
     width: 100px;
     height: 100px;
 }
