@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+*{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    height: auto;
+    background-color: rgb(5, 20, 43);
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+button{
+    height: 100%;
+    width: 33%;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: rgb(17, 48, 94);
+    border-radius: 5px;
+}
+input{
+    height: 100%;
+    width: 99.6%;
+    background-color: rgb(5, 20, 43);
+    border-top: 5px white solid;
+    border-right: transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+a, .user{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+a:visited, .user{ 
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.home{
+    text-decoration: underline solid #fffb00;
+}
+.Youtube{
+    position: absolute;
+    border-radius: 50%;
+    left: 0%;
+    bottom: 0%;
+    width: 135px;
+    height: 135px;
+}
+.X{
+    position: absolute;
+    border-radius: 50%;
+    right: 0%;
+    bottom: 0%;
+    width: 100px;
+    height: 100px;
+}
+.medias{
+    position: relative;
+    min-height: 80vh;
+}
+.img{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    display: inline-block;
+    font-weight: bolder;
+    color: white;
+}
+img{
+    border-radius: 50%;
+}
